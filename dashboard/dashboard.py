@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-ecommerce = pd.read_csv('./ecommerce.csv')
+ecommerce = pd.read_csv('ecommerce.csv')
 ecommerce["order_purchase_timestamp"] = pd.to_datetime(ecommerce["order_purchase_timestamp"])
 
 # Membuat tabel category_counts
